@@ -1,4 +1,4 @@
-<mxfile version="13.10.9" type="github" etag="DUz1apsDTz4Lwv4E5GYC" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363" modified="2020-12-06T15:43:24.162Z" host="app.diagrams.net">
+<mxfile version="13.10.9" type="github" etag="bIOSiCqLGA3HRsJo6UZJ" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363" modified="2020-12-06T15:48:51.490Z" host="app.diagrams.net">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="关系数据库ER图">
     <mxGraphModel page="1" grid="1" shadow="0" math="0" pageHeight="1100" pageWidth="850" pageScale="1" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="10" dy="1152" dx="1422" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -88,7 +88,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pdjW3l-s9vEzUtPWUf5G-29" value="疲劳预警信息" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1">
+        <mxCell id="pdjW3l-s9vEzUtPWUf5G-29" value="疲劳预警信息表" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1">
           <mxGeometry width="250" as="geometry" height="300" y="484" x="50" />
         </mxCell>
         <mxCell id="pdjW3l-s9vEzUtPWUf5G-30" value="" parent="pdjW3l-s9vEzUtPWUf5G-29" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1">
@@ -148,7 +148,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pdjW3l-s9vEzUtPWUf5G-44" value="车辆信息" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1">
+        <mxCell id="pdjW3l-s9vEzUtPWUf5G-44" value="车辆信息表" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1">
           <mxGeometry width="250" as="geometry" height="301" y="658.01" x="773.81" />
         </mxCell>
         <mxCell id="pdjW3l-s9vEzUtPWUf5G-45" value="" parent="pdjW3l-s9vEzUtPWUf5G-44" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1">
@@ -193,7 +193,7 @@
         <mxCell id="pdjW3l-s9vEzUtPWUf5G-58" value="入库时间" parent="1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1">
           <mxGeometry width="220" as="geometry" height="30" y="897.01" x="803.81" />
         </mxCell>
-        <mxCell id="pdjW3l-s9vEzUtPWUf5G-59" value="车队信息" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1">
+        <mxCell id="pdjW3l-s9vEzUtPWUf5G-59" value="车队信息表" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1">
           <mxGeometry width="250" as="geometry" height="300" y="250" x="773.81" />
         </mxCell>
         <mxCell id="pdjW3l-s9vEzUtPWUf5G-60" value="" parent="pdjW3l-s9vEzUtPWUf5G-59" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1">
