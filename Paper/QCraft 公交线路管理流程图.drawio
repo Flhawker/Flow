@@ -1,0 +1,237 @@
+<mxfile host="app.diagrams.net" modified="2020-12-31T09:02:59.590Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HVA6fYstsu-Y2JzSrsVz" version="13.10.4" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="现有流程">
+    <mxGraphModel dx="1995" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="y0JzHo6epVdeNVtQiATA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="y0JzHo6epVdeNVtQiATA-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="新增公交线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-12" target="y0JzHo6epVdeNVtQiATA-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-0" target="y0JzHo6epVdeNVtQiATA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-0" value="地图采集与制作" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-1" target="y0JzHo6epVdeNVtQiATA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-1" value="确定公交线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-7" target="y0JzHo6epVdeNVtQiATA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0JzHo6epVdeNVtQiATA-14">
+          <mxGeometry x="-0.1837" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-7" target="y0JzHo6epVdeNVtQiATA-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="300" />
+              <mxPoint x="320" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0JzHo6epVdeNVtQiATA-17">
+          <mxGeometry x="-0.1462" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-7" value="是否新增站点" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="160" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-8" target="y0JzHo6epVdeNVtQiATA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#330000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-8" target="y0JzHo6epVdeNVtQiATA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-8" value="地图标注" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-12" value="修改公交线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-13" target="y0JzHo6epVdeNVtQiATA-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="380" />
+              <mxPoint x="420" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-13" value="删除或修改站点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-20" target="y0JzHo6epVdeNVtQiATA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-20" value="QView配置站点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-21" target="y0JzHo6epVdeNVtQiATA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-21" value="生成音频" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KtOL-v35-bHybjD1kNdk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-22" target="KtOL-v35-bHybjD1kNdk-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-22" value="Autonomy语音集成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-23" target="y0JzHo6epVdeNVtQiATA-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-23" value="Autonomy添加GOAL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-19" value="QView配置线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y0JzHo6epVdeNVtQiATA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#330000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="y0JzHo6epVdeNVtQiATA-8" target="y0JzHo6epVdeNVtQiATA-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtOL-v35-bHybjD1kNdk-0" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sjosVnFxc-B8fQdJD6qU" name="改进流程">
+    <mxGraphModel dx="1995" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-0" />
+        <mxCell id="bmpR6l_KQWFS--mwxzla-1" parent="bmpR6l_KQWFS--mwxzla-0" />
+        <mxCell id="bmpR6l_KQWFS--mwxzla-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-3" target="bmpR6l_KQWFS--mwxzla-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-3" value="新增公交线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-17" target="bmpR6l_KQWFS--mwxzla-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-6" target="bmpR6l_KQWFS--mwxzla-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-6" value="地图采集与制作" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="160" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-8" target="bmpR6l_KQWFS--mwxzla-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-8" value="确定公交线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-13" target="bmpR6l_KQWFS--mwxzla-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bmpR6l_KQWFS--mwxzla-9">
+          <mxGeometry x="-0.1837" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-13" target="bmpR6l_KQWFS--mwxzla-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="300" />
+              <mxPoint x="320" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bmpR6l_KQWFS--mwxzla-11">
+          <mxGeometry x="-0.1462" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-13" value="是否新增站点" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="370" y="160" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-16" target="bmpR6l_KQWFS--mwxzla-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-16" value="地图标注" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="260" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-17" value="修改公交线路" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-19" target="bmpR6l_KQWFS--mwxzla-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="380" />
+              <mxPoint x="400" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-19" value="删除或修改站点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="530" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" target="bmpR6l_KQWFS--mwxzla-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" target="bmpR6l_KQWFS--mwxzla-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" target="bmpR6l_KQWFS--mwxzla-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-27" target="bmpR6l_KQWFS--mwxzla-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-27" value="前端页面配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#00CC00;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="340" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-16" target="bmpR6l_KQWFS--mwxzla-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#00CC00;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-31" target="bmpR6l_KQWFS--mwxzla-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-31" value="后端数据生成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#00CC00;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="340" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#00CC00;" edge="1" parent="bmpR6l_KQWFS--mwxzla-1" source="bmpR6l_KQWFS--mwxzla-32" target="bmpR6l_KQWFS--mwxzla-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-32" value="人工审核发布" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#00CC00;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="340" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bmpR6l_KQWFS--mwxzla-33" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#00CC00;" vertex="1" parent="bmpR6l_KQWFS--mwxzla-1">
+          <mxGeometry x="340" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
